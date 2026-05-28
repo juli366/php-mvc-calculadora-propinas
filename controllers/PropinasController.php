@@ -9,8 +9,10 @@ class PropinasController {
     }
 
     public function index(): void {
-        $resultado = null;
-        $error     = null;
+        $pageTitle    = 'Calculadora de Propinas';
+        $pageSubtitle = 'Calcula la propina y divide la cuenta entre varios';
+        $resultado    = null;
+        $error        = null;
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $total      = floatval($_POST['total']     ?? 0);

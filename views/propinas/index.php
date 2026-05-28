@@ -1,8 +1,3 @@
-<?php
-$pageTitle    = 'Calculadora de Propinas';
-$pageSubtitle = 'Calcula propina y divide la cuenta entre varios';
-?>
-
 <div class="row justify-content-center g-4">
 
     <!-- Formulario -->
